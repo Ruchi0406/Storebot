@@ -43,7 +43,8 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "❣️ 𝗠𝐄𝐒𝐒𝐀𝐆𝐄 𝗙𝐎𝐑 𝗖𝐎𝐍𝐓𝐄𝐍𝐓 𝗢𝐖𝐍𝐄𝐑𝐒 !! ❣️\n\nWᴇ ᴡᴀɴᴛ ᴛᴏ ᴄʟᴀʀɪғʏ ᴛʜᴀᴛ ᴡᴇ ᴀʀᴇ sᴏʟᴇʟʏ ᴜᴘʟᴏᴀᴅɪɴɢ ʟᴇᴄᴛᴜʀᴇs ᴛʜᴀᴛ ᴀʀᴇ ᴘᴜʙʟɪᴄʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴠᴀʀɪᴏᴜs ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘs. Oᴜʀ ɪɴᴛᴇɴᴛɪᴏɴ ɪs ᴛᴏ ғᴀᴄɪʟɪᴀᴛᴇ ᴇᴀsɪᴇʀ ᴀᴄᴄᴇss ᴛᴏ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴄᴏɴᴛᴇɴᴛ ғᴏʀ ᴀ ᴡɪᴅᴇʀ ᴀᴜᴅɪᴇɴᴄᴇ. Wᴇ ʀᴇsᴘᴇᴄᴛ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ ʀɪɢʜᴛs ᴀɴᴅ ᴀʀᴇ ᴡɪʟʟɪɴɢ ᴛᴏ ᴄᴏᴍᴘʟʏ ᴡɪᴛʜ ᴀɴʏ ʀᴇǫᴜᴇsᴛs ᴏʀ ᴄᴏɴᴅɪᴛɪᴏɴs ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ ʀᴇɢᴀʀᴅɪɴɢ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ɪɴ ǫᴜᴇsᴛɪᴏɴ. Pʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ʜᴇsɪᴛᴀᴛᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ᴜs ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴄᴇʀɴs ᴏʀ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴅɪsᴄᴜss ғᴜʀᴛʜᴇʀ.\n\nЄҲƤԼƠƦЄ MƠƦЄ ƁƳ ƇԼƖƇƘƖƝƓ ☛ /help\nᏒᎬᎶᎪᏒᎠᏕ\n𝐉ᴇᴇ 𝐒ᴛᴜᴅʏ 𝐑ᴏᴏᴍ 𝐔ɴɪᴠᴇʀsᴇ"
+
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
