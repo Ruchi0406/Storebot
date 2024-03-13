@@ -5,7 +5,6 @@ from bot import Bot as aditya
 from helper_func import subscribed
 from database.database import add_user
 
-
 # Handler for the /help command
 @aditya.on_message(filters.command('lectures') & filters.private & subscribed)
 async def help_command(client: Client, message):
@@ -18,7 +17,7 @@ async def help_command(client: Client, message):
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("Visit Channel 📢", url="https://t.me/jeestudyroom")],
-            [InlineKeyboardButton("class 11", callback_data= "aditya"),
+            [InlineKeyboardButton("class 11", callback_data="aditya"),
              InlineKeyboardButton("class 12", callback_data="radiux")
             ],
         ]
@@ -32,6 +31,56 @@ async def help_command(client: Client, message):
         quote=True
     )
 
-if __name__ == "__main__":
+# Decorate the functions with Bot event handler decorators
+@aditya.on_callback_query()
+async def aditya_handler(client: Client, query):
+    data = query.data
+    if data == "aditya":
+        await query.message.edit_text(
+            text = f" Developed By - Ordinators of [JEE STUDY ROOM Org.](https://t.me/Jeestudyroom)",
+            disable_web_page_preview = True,
+            reply_markup = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    ]
+                ]
+            )
+        )
+    elif data == "close":
+        await query.message.delete()
+        try:
+            await query.message.reply_to_message.delete()
+        except:
+            pass
+
+@aditya.on_callback_query()
+async def radiux_handler(client: Client, query):
+    data = query.data
+    if data == "radiux":
+        await query.message.edit_text(
+            text = f" experiment",
+            disable_web_page_preview = True,
+            reply_markup = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    ]
+                ]
+            )
+        )
+    elif data == "close":
+        await query.message.delete()
+        try:
+            await query.message.reply_to_message.delete()
+        except:
+            pass
+
+# Start the client
+async def main():
+    await aditya.start()
     print("Bot is running...")
-    app.run()  # Run the bot
+    await aditya.idle()
+
+if __name__ == "__main__":
+    asyncio.run(main())
