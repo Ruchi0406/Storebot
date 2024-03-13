@@ -1,6 +1,7 @@
 from pyrogram import __version__
 from bot import Bot  # Assuming Bot is imported from some module
-
+import asyncio
+from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 @Bot.on_callback_query()
