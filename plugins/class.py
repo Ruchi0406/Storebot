@@ -1,10 +1,14 @@
 from pyrogram import __version__
-from bot import Bot  # Assuming Bot is imported from some module
-import asyncio
-from pyrogram import Client, filters
+from pyrogram import Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-@Bot.on_callback_query()
+# Assuming Bot is imported from some module
+from bot import Bot  
+
+# Initialize the Pyrogram client
+client = Client("my_bot")
+
+@Bot.on_callback_query
 async def aditya_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "aditya":
@@ -26,7 +30,7 @@ async def aditya_handler(client: Bot, query: CallbackQuery):
         except:
             pass
 
-@Bot.on_callback_query()
+@Bot.on_callback_query
 async def radiux_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "radiux":
@@ -47,3 +51,6 @@ async def radiux_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
+
+# Run the client
+client.run()
