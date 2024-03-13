@@ -10,14 +10,12 @@ from database.database import add_user
 @app.on_message(filters.command('help') & filters.private & subscribed)
 async def help_command(client: Client, message):
     # Customizable help message
-    help_text = """🆘 **Help & Commands Guide**
+    help_text = """
+    Use command /lectures to get lectures menu...
 
-Here you can customize the help message to provide information about how to use your bot or list the available commands.
-
-- `/start`: Start the bot and get the welcome message.
-- `/help`: Get this help message.
-
-Feel free to customize this message according to your bot's functionality."""
+    bot is under development tab tak @iconic_robot use kro
+    nahi to gend marwao...
+    """
 
     # Inline button that links to your channel
     reply_markup = InlineKeyboardMarkup(
