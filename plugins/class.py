@@ -1,44 +1,46 @@
 from pyrogram import __version__
-from bot import Bot
+from bot import Bot  # Assuming Bot is imported from some module
+
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 @Bot.on_callback_query()
-async def callback_handler(client: Bot, query: CallbackQuery):
+async def aditya_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "aditya":
-        await aditya_handler(client, query)
-    elif data == "radiux":
-        await radiux_handler(client, query)
-
-async def aditya_handler(client: Bot, query: CallbackQuery):
-    await query.message.edit_text(
-        text = f"gendu",
-        disable_web_page_preview = True,
-        reply_markup = InlineKeyboardMarkup(
-            [
+        await query.message.edit_text(
+            text = f" Developed By - Ordinators of [JEE STUDY ROOM Org.](https://t.me/Jeestudyroom)",
+            disable_web_page_preview = True,
+            reply_markup = InlineKeyboardMarkup(
                 [
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    [
+                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    ]
                 ]
-            ]
+            )
         )
-    )
-
-async def radiux_handler(client: Bot, query: CallbackQuery):
-    await query.message.edit_text(
-        text = f" experiment",
-        disable_web_page_preview = True,
-        reply_markup = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
-                ]
-            ]
-        )
-    )
+    elif data == "close":
+        await query.message.delete()
+        try:
+            await query.message.reply_to_message.delete()
+        except:
+            pass
 
 @Bot.on_callback_query()
-async def close_handler(client: Bot, query: CallbackQuery):
-    if query.data == "close":
+async def radiux_handler(client: Bot, query: CallbackQuery):
+    data = query.data
+    if data == "radiux":
+        await query.message.edit_text(
+            text = f" experiment",
+            disable_web_page_preview = True,
+            reply_markup = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    ]
+                ]
+            )
+        )
+    elif data == "close":
         await query.message.delete()
         try:
             await query.message.reply_to_message.delete()
