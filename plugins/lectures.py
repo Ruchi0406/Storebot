@@ -18,7 +18,8 @@ async def help_command(client: Client, message):
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("Visit Channel 📢", url="https://t.me/jeestudyroom")],
-            [InlineKeyboardButton("class 11", callback_data= "aditya")
+            [InlineKeyboardButton("class 11", callback_data= "aditya"),
+             InlineKeyboardButton("class 12", callback_data="radiux")
             ]
         ]
     )
