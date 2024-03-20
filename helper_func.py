@@ -1,4 +1,4 @@
-#(©)Codexbotz
+
 
 import base64
 import re
@@ -13,8 +13,6 @@ chat_id1 = [-1002104201071]
 chat_id2 = [-1001685809766]
 
 async def is_subscribed(filter, client, update):
-    if not FORCE_SUB_CHANNEL:
-        return True
     
     user_id = update.from_user.id
     
