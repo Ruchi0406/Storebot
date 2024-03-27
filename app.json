@@ -15,27 +15,27 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "5847188221"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "24006476"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": ""
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "JSRU"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "15478961975051dfc360958e9ea07830"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1002140268608"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
@@ -43,7 +43,7 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "❣️ 𝗠𝐄𝐒𝐒𝐀𝐆𝐄 𝗙𝐎𝐑 𝗖𝐎𝐍𝐓𝐄𝐍𝐓 𝗢𝐖𝐍𝐄𝐑𝐒 !! ❣️\n\nWᴇ ᴡᴀɴᴛ ᴛᴏ ᴄʟᴀʀɪғʏ ᴛʜᴀᴛ ᴡᴇ ᴀʀᴇ sᴏʟᴇʟʏ ᴜᴘʟᴏᴀᴅɪɴɢ ʟᴇᴄᴛᴜʀᴇs ᴛʜᴀᴛ ᴀʀᴇ ᴘᴜʙʟɪᴄʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴠᴀʀɪᴏᴜs ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘs. Oᴜʀ ɪɴᴛᴇɴᴛɪᴏɴ ɪs ᴛᴏ ғᴀᴄɪʟɪᴀᴛᴇ ᴇᴀsɪᴇʀ ᴀᴄᴄᴇss ᴛᴏ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴄᴏɴᴛᴇɴᴛ ғᴏʀ ᴀ ᴡɪᴅᴇʀ ᴀᴜᴅɪᴇɴᴄᴇ. Wᴇ ʀᴇsᴘᴇᴄᴛ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ ʀɪɢʜᴛs ᴀɴᴅ ᴀʀᴇ ᴡɪʟʟɪɴɢ ᴛᴏ ᴄᴏᴍᴘʟʏ ᴡɪᴛʜ ᴀɴʏ ʀᴇǫᴜᴇsᴛs ᴏʀ ᴄᴏɴᴅɪᴛɪᴏɴs ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ ʀᴇɢᴀʀᴅɪɴɢ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ɪɴ ǫᴜᴇsᴛɪᴏɴ. Pʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ʜᴇsɪᴛᴀᴛᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ᴜs ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴄᴇʀɴs ᴏʀ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴅɪsᴄᴜss ғᴜʀᴛʜᴇʀ.\n\nЄҲƤԼƠƦЄ MƠƦЄ ƁƳ ƇԼƖƇƘƖƝƓ ☛ /help\nᏒᎬᎶᎪᏒᎠᏕ\n𝐉ᴇᴇ 𝐒ᴛᴜᴅʏ 𝐑ᴏᴏᴍ 𝐔ɴɪᴠᴇʀsᴇ"
+      "value": "𝗠𝐄𝐒𝐒𝐀𝐆𝐄 𝗙𝐎𝐑 𝗖𝐎𝐍𝐓𝐄𝐍𝐓 𝗢𝐖𝐍𝐄𝐑𝐒 !!\n\nWᴇ ᴡᴀɴᴛ ᴛᴏ ᴄʟᴀʀɪғʏ ᴛʜᴀᴛ ᴡᴇ ᴀʀᴇ sᴏʟᴇʟʏ ᴜᴘʟᴏᴀᴅɪɴɢ ʟᴇᴄᴛᴜʀᴇs ᴛʜᴀᴛ ᴀʀᴇ ᴘᴜʙʟɪᴄʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴠᴀʀɪᴏᴜs ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘs. Oᴜʀ ɪɴᴛᴇɴᴛɪᴏɴ ɪs ᴛᴏ ғᴀᴄɪʟɪᴀᴛᴇ ᴇᴀsɪᴇʀ ᴀᴄᴄᴇss ᴛᴏ ᴇᴅᴜᴄᴀᴛɪᴏɴᴀʟ ᴄᴏɴᴛᴇɴᴛ ғᴏʀ ᴀ ᴡɪᴅᴇʀ ᴀᴜᴅɪᴇɴᴄᴇ. Wᴇ ʀᴇsᴘᴇᴄᴛ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ ʀɪɢʜᴛs ᴀɴᴅ ᴀʀᴇ ᴡɪʟʟɪɴɢ ᴛᴏ ᴄᴏᴍᴘʟʏ ᴡɪᴛʜ ᴀɴʏ ʀᴇǫᴜᴇsᴛs ᴏʀ ᴄᴏɴᴅɪᴛɪᴏɴs ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ ʀᴇɢᴀʀᴅɪɴɢ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ɪɴ ǫᴜᴇsᴛɪᴏɴ. Pʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ʜᴇsɪᴛᴀᴛᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ᴜs ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏɴᴄᴇʀɴs ᴏʀ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴅɪsᴄᴜss ғᴜʀᴛʜᴇʀ.\n\nЄҲƤԼƠƦЄ MƠƦЄ ƁƳ ƇԼƖƇƘƖƝƓ ☛ /help\nᏒᎬᎶᎪᏒᎠᏕ\n𝐉ᴇᴇ 𝐒ᴛᴜᴅʏ 𝐑ᴏᴏᴍ 𝐔ɴɪᴠᴇʀsᴇ"
 
     },
     "FORCE_SUB_MESSAGE": {
@@ -52,12 +52,12 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "5847188221 6557524231 5200958213",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
+      "value": "True",
       "required": false
     }
   },
