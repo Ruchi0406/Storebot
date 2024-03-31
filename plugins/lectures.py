@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from bot import Bot
 
 @Bot.on_message(filters.command('lecture'))
-async def lectures_command(_, update):
+async def lectures_command(_, message):
     # Create the inline keyboard with subjects
     keyboard = [
         [
@@ -23,7 +23,7 @@ async def lectures_command(_, update):
     # Create the InlineKeyboardMarkup object
     reply_markup = InlineKeyboardMarkup(keyboard)
     # Send the message with the inline keyboard
-    await update.message.reply_text("Choose a subject from below please:", reply_markup=reply_markup)
+    await message.reply_text("Choose a subject from below please:", reply_markup=reply_markup)
 
 @Bot.on_callback_query(filters.regex('^subject_'))
 async def subject_callback(_, query):
